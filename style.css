@@ -1,0 +1,27 @@
+
+html, body {
+    height: 100vh;
+}
+
+.question-choice > pre {
+    margin: 0;
+}
+
+.code-content {
+    padding: 8px;
+
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.replacement {
+    padding: 0 4px;
+
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.replacement.highlighted {
+    background-color: yellow;
+}
